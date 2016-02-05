@@ -1,0 +1,42 @@
+{
+    "private": "true",
+    "name": "JKAussieSkater.github.io",
+    "description": "Github website of JKAussieSkater. Standard website, not-so-standard production ;)",
+    "keywords": [
+        "web",
+        "website",
+        "developer",
+        "beginner",
+        "blog"
+    ],
+    "homepage": "https://github.com/JKAussieSkater/JKAussieSkater.github.io",
+    "author": {
+        "name": "JKAussieSkater",
+        "url": "https://github.com/JKAussieSkater"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JKAussieSkater/JKAussieSkater.github.io.git"
+    },
+    "main": [
+        "dist/html/home.html",
+        "README.md"
+    ],
+    "devDependencies": {
+        "bootstrap-dv": "~1.1.3",
+        "bootstrap-sass": "~3.3.6",
+        "font-awesome": "fontawesome#~4.5.0",
+        "respond": "~1.4.2",
+        "html5shiv": "~3.7.3",
+        "bootswatch": "~3.3.6+1"
+    },
+    "ignore": [
+        "/bower_components/",
+        "/node_modules/",
+        "/src/",
+        "/tmp/",
+        "/.gitignore",
+        "/Gruntfile.js"
+    ]
+}
